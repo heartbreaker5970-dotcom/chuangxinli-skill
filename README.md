@@ -11,21 +11,23 @@
 
 ---
 
-## 🚀 1 分钟快速开始
+## 🚀 安装
 
-### 方法一：上传你的 AI 工具
+**第一步：下载**
+```bash
+git clone https://github.com/heartbreaker5970-dotcom/chuangxinli-skill.git
+```
+没有 git？直接点页面上的绿色 Code 按钮 → Download ZIP 解压。
 
-把这个文件夹拖到 ChatGPT / Claude / Kimi / DeepSeek 等任意支持文件上传的 AI 工具里，然后说：
+**第二步：看你用什么 AI 工具**
 
-> 加载这些文件，以后我问创新相关的问题时，用书里的框架来回答。
+| 你的工具 | 怎么用 |
+|---------|--------|
+| **ChatGPT / Claude / Kimi / DeepSeek / 豆包 / 元宝** | 打开 `system-prompt.md`，全文复制粘贴到 system prompt / 自定义指令 |
+| **支持上传文件的 AI** | 把整个文件夹拖进去，说「加载这些文件，用书里的框架回答创新问题」 |
+| **EasyClaw** | 把 `chuangxinli/` 整个文件夹放到 `workspace/skills/` 目录，重启 |
 
-### 方法二：复制 system prompt
-
-打开 `system-prompt.md`，把整段内容粘贴到你的 AI 工具的 system prompt / 自定义指令里。
-
-### 方法三：EasyClaw 用户
-
-把 `chuangxinli/` 整个文件夹复制到 `workspace/skills/` 目录，重启即生效。
+**就两步，完了。**
 
 ---
 
@@ -63,11 +65,9 @@
 ## 📦 一键安装（EasyClaw）
 
 ```bash
-# 克隆到 skills 目录
-git clone https://github.com/heartbreaker5970-dotcom/chuangxinli-skill.git
-# 把内容复制到 workspace/skills/chuangxinli/
-# 重启 EasyClaw
+git clone https://github.com/heartbreaker5970-dotcom/chuangxinli-skill.git && mv chuangxinli-skill skills/chuangxinli
 ```
+然后重启 EasyClaw。
 
 ---
 
