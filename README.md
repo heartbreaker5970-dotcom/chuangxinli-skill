@@ -13,21 +13,9 @@
 
 ## 🚀 安装
 
-**第一步：下载**
-```bash
-git clone https://github.com/heartbreaker5970-dotcom/chuangxinli-skill.git
-```
-没有 git？直接点页面上的绿色 Code 按钮 → Download ZIP 解压。
+> **下载 → 复制 `system-prompt.md` 全文粘贴到你的 AI 工具的 system prompt / 自定义指令 → 完了。**
 
-**第二步：看你用什么 AI 工具**
-
-| 你的工具 | 怎么用 |
-|---------|--------|
-| **ChatGPT / Claude / Kimi / DeepSeek / 豆包 / 元宝** | 打开 `system-prompt.md`，全文复制粘贴到 system prompt / 自定义指令 |
-| **支持上传文件的 AI** | 把整个文件夹拖进去，说「加载这些文件，用书里的框架回答创新问题」 |
-| **EasyClaw** | 把 `chuangxinli/` 整个文件夹放到 `workspace/skills/` 目录，重启 |
-
-**就两步，完了。**
+就这么一句话。
 
 ---
 
